@@ -15,4 +15,4 @@
     <?php wp_head(); ?>
 </head>
     <body>
-    <?php wp_nav_menu(); ?>
+    <?php get_template_part('template-parts/navigation/navigation', 'principal'); ?>
