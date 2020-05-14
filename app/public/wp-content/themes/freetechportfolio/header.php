@@ -15,4 +15,4 @@
     <?php wp_head(); ?>
 </head>
     <body>
-        Este é o header </br>
+    <?php wp_nav_menu(); ?>
